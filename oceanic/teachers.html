@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceanic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header" id="home">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.svg"></a>
+        </div>
+        <div class="location">
+            <select class="locations">
+                <option value="1">Tbilisi</option>
+                <option value="2">Rustavi</option>
+                <option value="3">Batumi</option>
+                <option value="4">Poti</option>
+            </select>
+        </div>
+        <div class="right-menu">
+            <div class="logout">
+                <select class="select">
+                    <option value="1">Login for emp</option>
+                    <option value="2">Registration for emp</option>       
+                </select>
+                <button class="user">Login</button>
+                <button class="language">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="all-teachers">
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="#" class="order">Order</a></li>
+                <li><a href="specialists.html">Specialists </a><span><p>200</p></span> </li>
+            </ul>
+        </div>
+        <div class="right-sidebar">
+            <h2 class="question">what service do you want?</h2>
+            <input type="text" placeholder="Service name?" id="input">
+            <div class="answers">
+                <ul>
+                    <a class="answer-li"></a>
+                </ul>
+            </div>
+            <div class="hints">
+                <p>Hints:</p>
+                <div class="hints-name">
+                    <h5>Math</h5>
+                    <h5>English</h5>
+                    <h5>History</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <div class="left">
+                <i class="fa-sharp fa-solid fa-arrow-left" id="left-click"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-arrow-right" id="right-click"></i>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <div class="support" title="support chat">
+        <i class="fa-solid fa-comments"></i>
+   </div>
+   <div class="feedback">
+    <div class="support-text">
+        <h4>Support</h4>
+        <div class="support-feed">
+            <i class="fa-brands fa-rocketchat"></i>
+            <p>We help in chat from 7 to 23 on weekdays, from 9 to 23 on weekends</p>
+        </div>         
+    </div>
+    <div class="input-text">
+        <input type="text" placeholder="type here">
+        <button>Send</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>

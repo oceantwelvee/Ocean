@@ -1,0 +1,39 @@
+:root {
+    --body: #fff;
+    --bx-shadow: #000;
+    --log-btn: #ccc;
+    --log-btn-text: #fff;
+    --log-btn-hov: rgb(112,180,244);
+    --reklam-br: #ccc;
+    --input-br: #ccc;
+    --input-br-find: #ccc;
+    --input-text: #000;
+    --span: #ccc;
+    --service-list-h5: #000;
+    --color-text: #000;
+    --theme-btn: #fff;
+    --theme-btn-i: #000;
+    --p-text: #fff;
+    --text-background: #ccc;
+    --br-color: #fff;
+}
+
+.dark-mode {
+    --bx-shadow: #fff;
+    --log-btn: #fff;
+    --log-btn-text: #000;
+    --log-btn-hov: rgb(112,180,244);
+    --reklam-br: #fff;
+    --input-br: #ccc;
+    --input-text: #000;
+    --input-br-find: #ccc;
+    --span: #ffff;
+    --service-list-h5: #fff;
+    --body: #000;
+    --color-text: #fff;
+    --theme-btn: #fff;
+    --theme-btn-i: #000;
+    --p-text: #fff;
+    --text-background: #000;
+    --br-color: #fff;
+}
